@@ -1,0 +1,68 @@
+{
+  "general": {
+    "appTitle": "DTK Access",
+    "cancel": "Cancel",
+    "english": "English",
+    "french": "French",
+    "spanish": "Spanish",
+    "portuguese": "Portuguese",
+    "noInternet": "There is no internet service available. Check your connection",
+    "locationPermission": "This app collects location data to enable employee attendance feature, this permission is required for this feature."
+  },
+  "networkErrors": {
+    "badRequest": "Network error : incorrect request",
+    "internalError": "Network error : internal server error",
+    "timeout": "Network error : request timeout",
+    "unauthorized": "Network error : unauthorised user",
+    "netUnavailable": "No network available",
+    "netUnavailableMessage": "Please check you internet connection and try again!"
+  },
+  "companyLogin": {
+    "copyright": "Copyright Datelka, Lda. All rights reserved.",
+    "fieldLabel": "Please, enter the company server",
+    "fieldNameLabel": "Please, enter the company name",
+    "invalidCompanyServer": "Invalid server",
+    "invalidCompanyName": "Invalid company name",
+    "invalidCompanyDetails": "Invalid company data. Check again!",
+    "register": "Register"
+  },
+  "employeeLogin": {
+    "password": "Password",
+    "companyNumber": "Employee number",
+    "invalidCompanyNumber": "Invalid employee number",
+    "invalidPassword": "Invalid password",
+    "login": "Login",
+    "invalidCreds": "Employee's credentials are incorrect. Please try again"
+  },
+  "loginCode": {
+    "enterCode": "Enter the code",
+    "submit": "Submit",
+    "invalidCode": "Invalid code"
+  },
+  "dashboard": {
+    "checkedInSuccess": "Successfully logged in",
+    "checkedInAlreadySuccess": "Attendance already successfully registered",
+    "checkedOutSuccess": "Exit successfully registered",
+    "checkIn": "Entry",
+    "checkOut": "Exit",
+    "lastCheckIn": "Last entry: ",
+    "lastCheckOut": "Last Exit: "
+  },
+  "profile": {
+    "report": "Report"
+  },
+  "report": {
+     "date" : "Date",
+     "noDataFound": "No data found!"
+  },
+  "logoutModal": {
+    "title": "Confirm logout",
+    "desc": "Select an option to log out",
+    "compTitle": "Leave the company",
+    "empTitle": "Change employee"
+  },
+  "langaugeModal": {
+    "title": "Choose Language",
+    "desc": "Please select preferred language"
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/index.tsx",
+      "sha1": "7bafa1e830b293c44d0df49b239b0cedbe117e06"
+    },
+    {
+      "path": "src/assets/fonts/segoeui.ttf",
+      "sha1": "a132afa6a9e4489e5758d9a23242d1aa69fc0464"
+    },
+    {
+      "path": "src/assets/fonts/segoeuib.ttf",
+      "sha1": "b118b30b4af719a33a76b8a563a75382c93d3af8"
+    },
+    {
+      "path": "src/assets/fonts/segoeuii.ttf",
+      "sha1": "b49c149e15e7d5bfde52da3e8080937df854e1b6"
+    },
+    {
+      "path": "src/assets/fonts/segoeuil.ttf",
+      "sha1": "c1ad4a2e22e692c5ac673964eed4b7de49f500b6"
+    },
+    {
+      "path": "src/assets/fonts/segoeuisl.ttf",
+      "sha1": "fb0c047599ca83df63c44289dcf8c3be31e8daf8"
+    },
+    {
+      "path": "src/assets/fonts/segoeuiz.ttf",
+      "sha1": "5e53a693dbd30493f59966eefbd16e9321343e39"
+    },
+    {
+      "path": "src/assets/fonts/seguibl.ttf",
+      "sha1": "f461deda888100025ca701ce795fd966ce8e52a7"
+    },
+    {
+      "path": "src/assets/fonts/seguibli.ttf",
+      "sha1": "fc8deb7b103a47583e3a3f4076a01c80f0774e71"
+    },
+    {
+      "path": "src/assets/fonts/seguili.ttf",
+      "sha1": "d0897b3205aa6870521758c94cbaed109e69530b"
+    },
+    {
+      "path": "src/assets/fonts/seguisb.ttf",
+      "sha1": "8c56d853577c8b22c526f0dfe766a81bca53f412"
+    },
+    {
+      "path": "src/assets/fonts/seguisbi.ttf",
+      "sha1": "31537e64597f92de4c89355a684b379c12e358bc"
+    },
+    {
+      "path": "src/assets/fonts/seguisli.ttf",
+      "sha1": "79cc9fd9ed51764518240f3d316f5e1dd1dd98f5"
+    }
+  ]
+}

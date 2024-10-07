@@ -1,0 +1,68 @@
+{
+    "general": {
+      "appTitle": "DTK Access",
+      "cancel": "Cancelar",
+      "english": "Inglés",
+      "french": "Francés",
+      "spanish": "Español",
+      "portuguese": "Portugués",
+      "noInternet": "No hay internet disponible. Compruebe su conexión",
+      "locationPermission": "Esta aplicación recopila datos de ubicación para habilitar la función de asistencia de los empleados; se requiere este permiso para esta función."
+    },
+    "networkErrors": {
+      "badRequest": "Error de red : solicitud incorrecta",
+      "internalError": "Error de red : error interno del servidor",
+      "timeout": "Error de red : tiempo de espera de la solicitud",
+      "unauthorized": "Error de red : usuario no autorizado",
+      "netUnavailable": "No hay red disponible",
+      "netUnavailableMessage": "Confirme su conexión a Internet e inténtelo de nuevo"
+    },
+    "companyLogin": {
+      "copyright": "Copyright Datelka, Lda. All rights reserved.",
+      "fieldLabel": "Introduzca el servidor de la empresa",
+      "fieldNameLabel": "Introduzca el nombre de la empresa",
+      "invalidCompanyServer": "Servidor no válido",
+      "invalidCompanyName": "Nombre de empresa no válido",
+      "invalidCompanyDetails": "Datos de la empresa no válidos. Compruebe de nuevo",
+      "register": "Registro"
+    },
+    "employeeLogin": {
+      "password": "Contraseña",
+      "companyNumber": "Número de empleado",
+      "invalidCompanyNumber": "Número de empleado no válido",
+      "invalidPassword": "contraseña invalida",
+      "login": "Entrar",
+      "invalidCreds": "Las credenciales del empleado son incorrectas. Introduzca las credenciales correctas del empleado"
+    },
+    "loginCode": {
+      "enterCode": "Introduzca el código",
+      "submit": "Enviar",
+      "invalidCode": "Código no válido"
+    },
+    "dashboard": {
+      "checkedInSuccess": "Asistencia registrada correctamente",
+      "checkedInAlreadySuccess": "Asistencia registrada correctamente",
+      "checkedOutSuccess": "Salida registrada correctamente",
+      "checkIn": "Entrada",
+      "checkOut": "Salida",
+      "lastCheckIn": "Última entrada: ",
+      "lastCheckOut": "Última salida: "
+    },
+    "profile": {
+      "report": "Informe"
+    },
+    "report": {
+       "date" : "Fecha",
+       "noDataFound": "No se han encontrado datos!"
+    },
+    "logoutModal": {
+      "title": "Confirmar cierre de sesión",
+      "desc": "Seleccione una opción para cerrar la sesión",
+      "compTitle": "Salir de la empresa",
+      "empTitle": "Cambiar empleado"
+    },
+    "langaugeModal": {
+        "title": "Elige lengua",
+        "desc": "Seleccione idioma preferido"
+      }
+  }

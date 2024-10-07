@@ -1,0 +1,68 @@
+{
+    "general": {
+      "appTitle": "DTK Access",
+      "cancel": "Cancelar",
+      "english": "Inglês",
+      "french": "Francês",
+      "spanish": "Espanhol",
+      "portuguese": "Português",
+      "noInternet": "Não há Internet disponível. Verifique a sua ligação",
+      "locationPermission": "Este aplicativo coleta dados de localização para ativar o recurso de presença de funcionários; essa permissão é necessária para esse recurso."
+    },
+    "networkErrors": {
+      "badRequest": "Erro de rede: solicitação incorreta",
+      "internalError": "Erro de rede: erro interno do servidor",
+      "timeout": "Erro de rede: tempo limite da solicitação",
+      "unauthorized": "Erro de rede: não autorizado",
+      "netUnavailable": "Nenhuma rede disponível",
+      "netUnavailableMessage": "Please check you internet connection and try again!"
+    },
+    "companyLogin": {
+      "copyright": "Copyright Datelka, Lda. All rights reserved.",
+      "fieldLabel": "Insira o servidor da empresa",
+      "fieldNameLabel": "Digite o nome da empresa",
+      "invalidCompanyServer": "Servidor de empresa inválido",
+      "invalidCompanyName": "Nome da empresa inválido",
+      "invalidCompanyDetails": "Dados da empresa inseridos inválidos. Verifique novamente!",
+      "register": "Registar"
+    },
+    "employeeLogin": {
+      "password": "Password",
+      "companyNumber": "Número de funcionário",
+      "invalidCompanyNumber": "Número de funcionário inválido",
+      "invalidPassword": "Senha inválida",
+      "login": "Entrar",
+      "invalidCreds": "As credenciais do funcionário estão incorretas. Insira as credenciais corretas do funcionário"
+    },
+    "loginCode": {
+      "enterCode": "Insira o código",
+      "submit": "Submeter",
+      "invalidCode": "Código inválido"
+    },
+    "dashboard": {
+      "checkedInSuccess": "Entrada registada\ncom sucesso",
+      "checkedInAlreadySuccess": "Sua presençajá\ncadastrado com sucesso",
+      "checkedOutSuccess": "Saída registada\ncom sucesso",
+      "checkIn": "Entrada",
+      "checkOut": "Saída",
+      "lastCheckIn": "Última Entrada: ",
+      "lastCheckOut": "Última Saída: "
+    },
+    "profile": {
+      "report": "Relatório"
+    },
+    "report": {
+       "date" : "Date",
+       "noDataFound": "Nenhum dado encontrado!"
+    },
+    "logoutModal": {
+      "title": "Confirmar logout",
+      "desc": "Selecione uma opção para sair:",
+      "compTitle": "Sair da empresa",
+      "empTitle": "Sair do funcionário"
+    },
+    "langaugeModal": {
+        "title": "Escolha o seu idioma",
+        "desc": "Por favor selecione  idioma preferido"
+      }
+  }

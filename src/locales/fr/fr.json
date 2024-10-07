@@ -1,0 +1,68 @@
+{
+  "general": {
+    "appTitle": "DTK Access",
+    "cancel": "Annuler",
+    "english": "Anglais",
+    "french": "Français",
+    "spanish": "Espagnol",
+    "portuguese": "Portugais",
+    "noInternet": "Pas d'internet disponible. Vérifiez votre connexion",
+    "locationPermission": "Cette application collecte des données de localisation pour activer la fonction de présence des employés, cette autorisation est requise pour cette fonctionnalité."
+  },
+  "networkErrors": {
+    "badRequest": "Erreur de réseau : demande incorrecte",
+    "internalError": "Erreur de réseau : erreur interne du serveur",
+    "timeout": "Erreur de réseau : délai d'attente de la demande",
+    "unauthorized": "Erreur de réseau : utilisateur non autorisé",
+    "netUnavailable": "Pas de réseau disponible",
+    "netUnavailableMessage": "Veuillez confirmer votre connexion internet et réessayer"
+  },
+  "companyLogin": {
+    "copyright": "Copyright Datelka, Lda. All rights reserved.",
+    "fieldLabel": "Saisir le serveur de l'entreprise",
+    "fieldNameLabel": "Saisir le nom de l'entreprise",
+    "invalidCompanyServer": "Serveur invalide",
+    "invalidCompanyName": "Nom de l'entreprise non valide. ",
+    "invalidCompanyDetails": "Données de l'entreprise non valides. Vérifiez à nouveau !",
+    "register": "Enregistrer"
+  },
+  "employeeLogin": {
+    "password": "Mot de passe",
+    "companyNumber": "Numéro d'employé",
+    "invalidCompanyNumber": "Numéro d'employé invalide",
+    "invalidPassword": "Mot de passe incorrect",
+    "login": "Se connecter",
+    "invalidCreds": "Les données d'identification de l'employé sont incorrectes. Saisissez les informations"
+  },
+  "loginCode": {
+    "enterCode": "Saisir le code",
+    "submit": "Envoyer",
+    "invalidCode": "Code invalide"
+  },
+  "dashboard": {
+    "checkedInSuccess": "Présence enregistrée avec succès",
+    "checkedInAlreadySuccess": "Présence déjà enregistrée avec succès",
+    "checkedOutSuccess": "Sortie enregistrée avec succès",
+    "checkIn": "Entrée",
+    "checkOut": "Sortie",
+    "lastCheckIn": "Dernière entrée : ",
+    "lastCheckOut": "Dernière sortie : "
+  },
+  "profile": {
+    "report": "Rapport"
+  },
+  "report": {
+     "date" : "Date",
+     "noDataFound": "Aucune donnée trouvée !"
+  },
+  "logoutModal": {
+    "title": "Confirmer la déconnexion",
+    "desc": "Sélectionner une option pour se déconnecter",
+    "compTitle": "Sortir de l'entreprise",
+    "empTitle": "Changer de l'employé"
+  },
+  "langaugeModal": {
+    "title": "Choisissez la langue",
+    "desc": "Veuillez sélectionner langue préférée"
+  }
+}

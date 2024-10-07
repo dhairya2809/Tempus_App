@@ -1,0 +1,28 @@
+export default {
+  login_background: require('../images/background.png'),
+  app_tempus: require('../images/app_tempus.png'),
+  datelka_logo: require('../images/datelka_logo.png'),
+  group_BG: require('../images/group_BG.png'),
+  text_logo: require('../images/text_logo.png'),
+  bg_gradient: require('../images/bg_gradient.png'),
+  user: require('../images/user.png'),
+  signout: require('../images/signout.png'),
+  home: require('../images/home.png'),
+  in: require('../images/in.png'),
+  out: require('../images/out.png'),
+  check: require('../images/check.png'),
+  profile: require('../images/profile.png'),
+  calendar: require('../images/calendar.png'),
+  downArrow: require('../images/downArrow.png'),
+  clock: require('../images/clock.png'),
+  cancel: require('../images/cancel.png'),
+  language: require('../images/language.png'),
+  english: require('../images/uk.png'),
+  portugal: require('../images/portugal.png'),
+  spain: require('../images/spain.png'),
+  france: require('../images/france.png'),
+  checkMark: require('../images/checkMark.png'),
+
+  //Vector Icons
+  logout: 'sign-out-alt',
+};
