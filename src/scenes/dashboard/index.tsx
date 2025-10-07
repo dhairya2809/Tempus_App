@@ -260,8 +260,8 @@ function Dashboard() {
             marginTop={Spacing.SCALE_20}
           />
         )}
-        <View style={[styles.flexRow, styles.footerView]}>
-          <Image source={images.text_logo} />
+        <View style={[styles.flexRowBottom, styles.footerView]}>
+          <Image source={images.text_logo}  />
           <Text
             text={localiseString('companyLogin.copyright')}
             fontSize={FontSize._12}
@@ -319,6 +319,14 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     width: '85%',
     justifyContent: 'space-between',
+  },
+  flexRowBottom: {
+    flexDirection: 'row',
+    width: '85%',
+    justifyContent: 'space-between',
+    // borderWidth:2,
+    // marginHorizontal: scaleSize(40),
+    // paddingLeft: scaleSize(40),
   },
   copyRightAdditionalStyle: {
     fontWeight: '300',

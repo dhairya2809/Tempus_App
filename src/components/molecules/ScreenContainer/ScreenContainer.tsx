@@ -1,10 +1,11 @@
 /* eslint-disable @typescript-eslint/ban-types */
 import React from 'react';
-import {ImageBackground, View, StyleSheet} from 'react-native';
+import {ImageBackground, View, StyleSheet, Platform} from 'react-native';
 import DeviceInfo from 'react-native-device-info';
 import Banner from '@molecules/Banner';
 import BlurOverlay from '@molecules/BlurOverlay';
 import ScreenLoader from '@molecules/ScreenLoader';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 // Required props
 interface ScreenContainerRequiredProps {
@@ -52,6 +53,7 @@ const defaultProps: ScreenContainerOptionalProps = {
 
 // Use the full props within the actual component
 const ScreenContainer = (props: ScreenContainerProps) => {
+    const insets = useSafeAreaInsets();
   const {
     backgroundType,
     backgroundImage,
@@ -77,6 +79,31 @@ const ScreenContainer = (props: ScreenContainerProps) => {
           <ImageBackground
             source={backgroundImage}
             style={styles.imageBackground}>
+             {/* 👇 White safe-area fillers ONLY for Android */}
+            {Platform.OS === 'android' && (
+              <>
+                <View
+                  style={{
+                    position: 'absolute',
+                    top: 0,
+                    left: 0,
+                    right: 0,
+                    height: insets.top, // status bar area
+                    backgroundColor: 'white',
+                  }}
+                />
+                <View
+                  style={{
+                    position: 'absolute',
+                    bottom: 0,
+                    left: 0,
+                    right: 0,
+                    height: insets.bottom, // gesture bar area
+                    backgroundColor: 'white',
+                  }}
+                />
+              </>
+            )}
             {children}
             <ScreenLoader
               onLoaderTimeout={onLoaderTimeout}

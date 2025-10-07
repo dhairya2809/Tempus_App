@@ -1,8 +1,9 @@
 import React from 'react';
-import {View, ScrollView, StyleSheet, ViewStyle} from 'react-native';
+import {View, ScrollView, StyleSheet, ViewStyle, Platform, StatusBar} from 'react-native';
 import {useSafeAreaInsets} from 'react-native-safe-area-context';
 import {KeyboardAwareScrollView} from 'react-native-keyboard-aware-scroll-view';
 import {Spacing} from '@src/styles';
+import AppColors from '@src/styles/colors';
 
 // Required props
 interface ScreenLayoutRequiredProps {
@@ -151,11 +152,42 @@ const ScreenLayout = (props: ScreenLayoutProps) => {
         )
       : {...defaultInset};
 
+  // return (
+  //   <View style={[styles.container, enableSafeView ? forceInsets : null]}>
+  //     {header}
+  //     {contentArea()}
+  //   </View>
+  // );
   return (
-    <View style={[styles.container, enableSafeView ? forceInsets : null]}>
-      {header}
-      {contentArea()}
-    </View>
+   <>
+    {Platform.OS === 'android' ? (
+      <>
+        <StatusBar
+          backgroundColor={AppColors.WHITE}
+          barStyle="dark-content"
+          translucent={false}
+        />
+        <View
+          style={{
+            flex: 1,
+            paddingTop: safeAreaInsets.top,
+            paddingBottom: safeAreaInsets.bottom,
+            paddingLeft: safeAreaInsets.left,
+            paddingRight: safeAreaInsets.right,
+          }}
+        >
+          {header}
+          {contentArea()}
+        </View>
+      </>
+    ) : (
+      // iOS layout
+      <View style={[styles.container, enableSafeView ? forceInsets : null]}>
+        {header}
+        {contentArea()}
+      </View>
+    )}
+  </>
   );
 };
 
